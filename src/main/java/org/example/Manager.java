@@ -1,8 +1,8 @@
 package org.example;
 
 public class Manager extends Employee{
-    public Manager(String name, double salary, int year, int month, int day) {
-        super(name, salary, year, month, day);
+    public Manager(String name, double salary, int year, int month, int day, Male male) {
+        super(name, salary, year, month, day, male);
     }
 
     public static void increaseSalary(Employee[] employees, double amount) {
